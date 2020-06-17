@@ -4,6 +4,7 @@ Battery Chargers:
   aplic Intelligent 4 Bay Battery Charger:
     model: 302145
     asin: B01M7TNKZL
+    voltage: 12
     plug: Barrel
     description: |
       Advanced, microprocessor-controlled battery charger.
@@ -17,11 +18,24 @@ Battery Chargers:
 
 
 
+Soldering Irons:
+
+
+  Miniware TS80P Smart Soldering Iron:
+    voltage:
+      - USB PD 2.0
+      - USB QC 3.0
+    notes:
+      - Doesn’t run on “normal” USB 2 or USB 3 power, you _have_ to power it with a PD or QC compatible port.
+
+
+
 USB Hubs:
 
 
   Icy Box IB-AC6113 13-Port USB 3.0 Hub:
     asin: B00TTNQQSY
+    voltage: 12
     plug: Barrel
 
 
